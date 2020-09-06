@@ -1,0 +1,593 @@
+html, body, div, span, applet, object, iframe,                           /*сброс стандартных настроек сайта*/
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}                                                                              /*сброс стандартных настроек сайта*/
+
+body{
+    background: #f4f4f4;
+}
+
+
+
+#website_header{                                                            /* начало шапки сайта*/
+    position: relative;
+    width: 1280px;
+    height: 80px;
+    background: #f4f4f4;
+}
+
+.circle {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 185px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #f98561;
+    border-radius: 90%;
+    background: #f98561;
+    
+}
+
+.square {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 210px;
+    height: 18px;
+    width: 18px;
+    border: 1px solid rgb(35,175,200);
+    background: rgb(35,175,200);
+}
+
+.Your_Logo {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 235px;
+    font-size: 20px;
+    color: #606060;
+    font-weight: 400;
+    font-family: "Bree Serif"; 
+}
+
+.ul_website_header {                                                            /*меню в шапке*/
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 511px;
+}
+
+.li_website_header {
+    float: left;
+    margin-right: 52px;  
+}
+
+.a_website_header {
+    text-decoration: none;
+    color: #515862;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+#orange_background {
+    position: relative;
+    margin-top: -5px;
+    width: 66px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: #f98561;
+    margin-left: -15px;
+}
+
+#a_website_header {
+    position: absolute;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Ubuntu";
+    left: 30%;
+    top: 20%;
+    text-decoration: none;
+}
+
+#Search {
+    position: absolute;
+    margin-left: 1037px;
+    margin-top: 37px;
+    font-size: 12px;
+    color: #515862;
+    font-weight: 500;
+    font-family: "Ubuntu";
+}
+
+.circle_magnifier {
+    position: absolute;
+    margin-left: 1080px;
+    margin-top: 21px;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #f98561;
+}
+
+.magnifier {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}                                                                                          /*конец шапки сайта*/
+
+#big_slide {                                                                              /*начало слайда*/
+    position: relative;
+}
+
+.big_slide_background {
+    position: absolute;
+}
+
+.PORTFOLIO {
+    margin-top: 115px;
+    margin-left: 515px;
+    position: absolute;
+    font-size: 80px;
+    color: #cccece;
+    font-family: "Bebas Neue";
+}                                                                                         
+
+
+.WHO_ARE_WE {
+    position: absolute;
+    margin-left: 537px;
+    margin-top: 314px;
+    font-size: 50px;
+    line-height: 82px;
+    color: #2190c1;
+    font-family: "Bebas Neue";
+    text-align: center;
+}
+
+.Lorem_ipsum {
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 391px;
+    width: 907px;
+    height: 178px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #515862;
+    font-weight: 900;
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+.Sed_lobortis {
+    position: absolute;
+    margin-left: 195px;
+    margin-top: 473px;
+    width: 907px;
+    height: 178px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #515862;
+    font-weight: 400;
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+.WE_BELIVE {
+    position: absolute;
+    margin-left: 256px;
+    margin-top: 586px;
+    width: 765px;
+    font-size: 95px;
+    line-height: 82px;
+    color: #515862;
+    font-family: "Bebas Neue";
+}                                                                                             /*конец слайда*/
+  
+#lines {                                                                                      /*начало линий*/
+    position: relative;
+    margin-top: 695px;
+    width: 1280px;
+    height: 310px;
+    border-top: 2px solid rgb(215,215,215);
+    border-bottom: 4px solid #a5a5a5;
+}
+
+.Web_Design {                                                                                 /*блок Web Design*/
+    position: absolute;
+    margin-left: 180px;
+    height: 310px;
+    width: 230px;
+    border-left: 2px solid rgb(215,215,215);
+    border-right: 2px solid rgb(215,215,215);
+}
+
+#img_Web_Design {                                                                             /*картинка Web Design*/
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+.Web_Design_blue_lines {                                                                      /*синий текст Web Design*/
+    float: left;
+    margin-top: 10px;
+    margin-left: 65px;
+    font-size: 20px;
+    line-height: 36px;
+    color: #2190c1;
+    font-weight: 400;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.Web_Design_text_lines {                                                                      /*просто текст Web Design*/
+    float: left;
+    margin-top: 15px;
+    margin-left: 16px;
+    width: 209px;
+    height: 173px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #515862;
+    font-weight: 300;
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+.Phone_App {
+    position: absolute;
+    margin-left: 412px;
+    height: 310px;
+    width: 230px;
+    border-right: 2px solid rgb(215,215,215);
+}
+
+#img_Phone_App {
+    margin-top: 33px;
+    margin-left: 75px;
+}
+
+.Phone_App_blue_lines {
+    float: left;
+    margin-top: 5px;
+    margin-left: 70px;
+    font-size: 20px;
+    line-height: 36px;
+    color: #2190c1;
+    font-weight: 400;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.Phone_App_text_lines {
+    float: left;
+    margin-top: 15px;
+    margin-left: 16px;
+    width: 209px;
+    height: 173px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #515862;
+    font-weight: 300;
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+.Commercial {
+    position: absolute;
+    margin-left: 640px;
+    height: 310px;
+    width: 230px;
+    border-right: 2px solid rgb(215,215,215);
+}
+
+#img_Commercial {
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.Commercial_blue_lines {
+    float: left;
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 20px;
+    line-height: 36px;
+    color: #2190c1;
+    font-weight: 400;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.Commercial_text_lines {
+    float: left;
+    margin-top: 15px;
+    margin-left: 16px;
+    width: 209px;
+    height: 173px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #515862;
+    font-weight: 300;
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+.Media_Planing {
+    position: absolute;
+    margin-left: 870px;
+    height: 310px;
+    width: 230px;
+    border-right: 2px solid rgb(215,215,215);
+}
+
+#img_Media_Planing {
+    margin-top: 45px;
+    margin-left: 77px;
+}
+
+.Media_Planing_blue_lines {
+    float: left;
+    margin-top: 8px;
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 36px;
+    color: #2190c1;
+    font-weight: 400;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.Media_Planing_text_lines {
+    float: left;
+    margin-top: 15px;
+    margin-left: 16px;
+    width: 209px;
+    height: 173px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #515862;
+    font-weight: 300;
+    font-family: "Ubuntu";
+    text-align: center;
+}                                                                                                   /*конец линий*/
+
+#teams {
+    position: relative;
+}
+
+.OUR_TEAM {
+    float: left;
+    margin-top: 25px;
+    margin-left: 564px;
+    font-size: 50px;
+    line-height: 82px;
+    color: #2190c1;
+    font-family: "Bebas Neue";
+    text-align: center;
+}
+
+.one_gray_background {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 220px;
+    z-index: 1;
+    width: 382px;
+    height: 291px;
+    background-color: #d3d3d3;
+    border: 1px solid #cccccc;
+}
+
+.one_person {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    z-index: 2;
+    width: 382px;
+    height: 291px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.gray_small_background {
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 13px;
+    width: 129px;
+    height: 129px;
+    background-color: #b5b5b5;
+}
+
+.img_man_person {
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.Art_Director {
+    float: left;
+    margin-top: 10px;
+    margin-left: 210px;
+    font-size: 17px;
+    line-height: 39px;
+    color: #666666;
+    font-weight: 400;
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.JON_DOE_LOREM {
+    float: left;
+    margin-top: -30px;
+    margin-left: 180px;
+    font-size: 33px;
+    line-height: 89px;
+    color: #2190c1;
+    font-family: "Bebas Neue";
+}
+
+.jondoelorem {
+    float: left;
+    margin-top: -35px;
+    margin-left: 178px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #94979b;
+    font-weight: 600;
+    font-family: "Ubuntu";
+}
+
+.blue_square {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 190px;
+    width: 24px;
+    height: 23px;
+    border-radius: 4px;
+    background-color: #00a1e4;
+}
+
+.turquoise_square {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 227px;
+    width: 24px;
+    height: 23px;
+    border-radius: 4px;
+    background-color: #29aecb;
+}
+
+.sapphire_square {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 263px;
+    width: 24px;
+    height: 23px;
+    border-radius: 4px;
+    background-color: #0481d9;
+}
+
+.orange_square {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 300px;
+    width: 24px;
+    height: 23px;
+    border-radius: 4px;
+    background-color: #f7941d;
+}
+
+.text_person {
+    float: left;
+    margin-top: 55px;
+    margin-left: 10px;
+    width: 353px;
+    height: 110px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #515862;
+    font-weight: 400;
+    font-family: "Ubuntu";
+}
+
+.two_gray_background {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 690px;
+    z-index: 1;
+    width: 382px;
+    height: 291px;
+    background-color: #d3d3d3;
+    border: 1px solid #cccccc;
+}
+
+.two_person {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: -13px;
+    z-index: 2;
+    width: 382px;
+    height: 291px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.three_gray_background {
+    position: absolute;
+    margin-top: 475px;
+    margin-left: 220px;
+    z-index: 1;
+    width: 382px;
+    height: 291px;
+    background-color: #d3d3d3;
+    border: 1px solid #cccccc;
+}
+
+.three_person {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    z-index: 2;
+    width: 382px;
+    height: 291px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.four_gray_background {
+    position: absolute;
+    margin-top: 475px;
+    margin-left: 690px;
+    z-index: 1;
+    width: 382px;
+    height: 291px;
+    background-color: #d3d3d3;
+    border: 1px solid #cccccc;
+}
+
+.four_person {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: -13px;
+    z-index: 2;
+    width: 382px;
+    height: 291px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
